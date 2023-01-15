@@ -3,7 +3,7 @@ int main()
 {
     int a,rev=0;
     scanf("%d",&a);
-    while(a)
+    while(a>0 || a<0)
     {
         int rem=a%10;
         rev=rev*10+rem;
